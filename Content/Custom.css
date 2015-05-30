@@ -1,0 +1,20 @@
+﻿.Negative{
+	background-color:#1B1B1B;
+	color:white;
+}
+.ImagePlaceHolder{
+	height:720px;
+	width:100%;
+		box-shadow: 0 0 1em black inset;
+}
+.noMargin{
+	margin:0;
+}
+footer{
+	font-size:1.2em;
+	padding:1em;
+	text-align:center;
+}
+.shadowDrop{
+	box-shadow: 0 0 1em black;
+}
