@@ -1,5 +1,5 @@
 ﻿.Negative{
-	background-color:#1B1B1B;
+	background-color:#3A3A3A;
 	color:white;
 }
 .ImagePlaceHolder{
@@ -17,4 +17,11 @@ footer{
 }
 .shadowDrop{
 	box-shadow: 0 0 1em black;
+}
+.graphicsStuff{
+	color:white;
+	text-shadow: 0 0 1em black;
+}
+.graphicsStuff a{
+	color:inherit;
 }

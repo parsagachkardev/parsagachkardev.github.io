@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Untitled 1</title>
+</head>
+
+<body>
+
+<p class="jq-multilang-enabled" data-lang-fa="فارسی" data-lang-fa-rtl="true" data-lang-en="English"></p>
+<a id="fa"  href="#">Farsi</a>
+<a id="en" href="#">English</a>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="JQMultiLang/jq-multilang.js"></script>
+<script>
+
+ 
+
+
+
+
+	$("#fa").click(function(){
+		$(".jq-multilang-enabled").jqmultilang("fa");
+	});
+	$("#en").click(function(){
+		$(".jq-multilang-enabled").jqmultilang("en");
+	});
+
+</script>
+</body>
+
+</html>
