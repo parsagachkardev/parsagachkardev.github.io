@@ -1,0 +1,15 @@
+﻿@font-face{
+    font-family:"Yekan";
+    src:url("../font/B Yekan.ttf");
+}
+@font-face{
+    font-family:"Roboto";
+    src:url("../font/roboto/Roboto-Bold.ttf");
+}
+@font-face{
+    font-family:"Material Icons";
+    src:url("../font/material-design-icons/Material-Design-Icons.ttf");
+}
+body {
+    font-family:Yekan,Roboto,'Material Icons';
+}
